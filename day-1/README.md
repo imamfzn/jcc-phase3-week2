@@ -14,7 +14,7 @@ Silahkan lakukan setup dan baca materi berikut ini secara berurutan:
 Silahkan kerjakan hands on task yang ada pada:
 
 1. [Running a Simple Express Application](./tasks.md#running-a-simple-express-application)
-2. [Modify & Running a Simple Crud Application]((./tasks.md#modify--running-a-simple-crud-application))
+2. [Modify & Running a Simple Crud Application](./tasks.md#modify--running-a-simple-crud-application)
 
 ## Notes
 
