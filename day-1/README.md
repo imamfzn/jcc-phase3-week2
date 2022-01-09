@@ -9,15 +9,12 @@ Silahkan lakukan setup dan baca materi berikut ini secara berurutan:
 3. [Docker](./docker.md)
 
 
-## Hands On Task:
+## Hands On Tasks:
 
-1. Silahkan download / clone repository https://github.com/imamfzn/simple-express-starter ke directory di dalam wsl 2 kalian
-2. Jalankan aplikasi tersebut tanpa menggunakan docker (lihat README aplikasi pada repository)
-3. Jalankan aplikasi tersebut dengan menggunakan docker
-4. Hit endpoint yang tersedia pada aplikasi tersebut `/` dan `/test`
-5. Amati log aplikasi melalui `docker logs`
-6. Coba jalankan aplikasi tersebut dengan docker dan ganti port yang di publish ke localhost kita menjadi port 4045 dan pastikan endpoint sebelumnya dapat diakses
+Silahkan kerjakan hands on task yang ada pada:
 
+1. [Running a Simple Express Application](./tasks.md#running-a-simple-express-application)
+2. [Modify & Running a Simple Crud Application]((./tasks.md#modify--running-a-simple-crud-application))
 
 ## Notes
 
@@ -27,4 +24,4 @@ Silahkan lakukan setup dan baca materi berikut ini secara berurutan:
    wsl ~
    ```
 
-2. Jika ada yang belum dipahami, silahkan catat dan jangan lupa untuk ditanyakan pada live-session malam nanti.
+2. Jika ada yang belum dipahami, silahkan catat dan jangan lupa untuk ditanyakan pada live-session malam nanti. Kalian bisa menyimpan hal yang ingin ditanyakan / tidak dipahami dengan membuat issue di https://github.com/imamfzn/jcc-phase3-week2/issues
