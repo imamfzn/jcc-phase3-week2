@@ -7,7 +7,7 @@
 3. Jalankan aplikasi tersebut dengan menggunakan docker
 4. Hit endpoint yang tersedia pada aplikasi tersebut `/` dan `/test`
 5. Amati log aplikasi melalui `docker logs`
-6. Coba jalankan aplikasi tersebut dengan docker dan ganti port yang di publish ke localhost kita menjadi port `4045` dan pastikan endpoint sebelumnya dapat diakses
+6. Coba jalankan aplikasi tersebut dengan docker dan ganti port yang di publish ke localhost kita menjadi port `4040` dan pastikan endpoint sebelumnya dapat diakses
 
 
 Silahkan baca kembali materi [Docker](./docker.md) sebelumnya untuk membantu memahami dan mengerjakan task ini.
