@@ -5,5 +5,5 @@ Halo, selamat datang di repository ini. Repository ini berisi materi yang akan d
 Materi ini berisi:
 
 * [Day #1 - Docker 101](./day-1)
-* Day #2 - Containerize your docker application
+* [Day #2 - Working on Multiple Container with Docker Compose](./day-2)
 * Day #3 - GraphQL Server
