@@ -59,7 +59,7 @@ Kalau sudah selesai membuat berdasarkan requirement diatas, buatlah 1 container 
 - Product dengan rata-rata rating terbaik (Top Review)
 - Product dengan rata-rata rating terburuk (Bad Product)
 
-Cukup ambil 1 product yang mana saja jika hasil dari ketiga kategori tersebut menghasilkan lebih dari 1 produk. Simpan data hasil olahan container cron ini ke suatu table / collection, yang nantinya akan di konsumsi oleh endpoint `GET /product-reports` pada product service. Kurang lebih output endpoint nya:
+Cukup ambil 1 product yang mana saja jika hasil dari ketiga kategori tersebut menghasilkan lebih dari 1 produk. Simpan data hasil olahan container cron ini ke suatu table / collection, yang nantinya akan di konsumsi oleh endpoint `GET /product-reports` pada product service. Cron berjalan setiap menit, hanya sebagai script `.js` (bukan sebagai `http api`). Kurang lebih output endpoint nya:
 
 ```json
 {
