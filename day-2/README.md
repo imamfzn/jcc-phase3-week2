@@ -19,6 +19,8 @@ Pada kesempatan ini, kita akan mencoba membuat suatu ekosistem microservices sed
 
 ### Requirements:
 
+![Service Architecture](./img/service-architecture-1.png)
+
 Hal yang harus dipenuhi oleh setiap api service:
 
 - Setiap microservice menggunakan metode caching pada setiap pemanggilan endpoint api `GET`
@@ -48,6 +50,8 @@ Base Schema:
     - text: review dalam bentuk teks
 
 ### Challenge
+
+![Service Architecture with Cron](./img/service-architecture-2.png)
 
 Kalau sudah selesai membuat berdasarkan requirement diatas, buatlah 1 container service yang berperan sebagai cron-job. Fungsi dari cronjob ini adalah untuk mendapatkan product dengan:
 
