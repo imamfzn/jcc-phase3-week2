@@ -6,7 +6,7 @@
 
 ## Hands On Tasks:
 
-Pada kesempatan ini, kita akan mencoba membuat suatu ekosistem microservices sederhana namun agak kompleks dengan menggunakan `docker-compose`. Yang perlu dilakukan adalah:
+Sebelum mengerjakan task ini, coba pelajari dan jalankan docker-compose yang sudah ditambahkan pada repository https://github.com/imamfzn/simple-express-crud. Pada kesempatan ini, kita akan mencoba membuat suatu ekosistem microservices sederhana namun agak kompleks dengan menggunakan `docker-compose`. Yang perlu dilakukan adalah:
 
 - Buatlah 2 api service berdasarkan requirement dibawah ini
 - Buat dengan **se-sederhana mungkin**, tujuan dari task ini adalah untuk membangun ekosistem microservice menggunakan `docker-compose` jadi aplikasi tidak perlu terlalu canggih dan `robust` yang penting setiap fungsional dari requirement nya berjalan. Misal, tidak perlu ada validasi suatu field, dll. Bahkan tidak perlu membuat unit test pada task ini
