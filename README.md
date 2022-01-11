@@ -6,4 +6,4 @@ Materi ini berisi:
 
 * [Day #1 - Docker 101](./day-1)
 * [Day #2 - Working on Multiple Container with Docker Compose](./day-2)
-* Day #3 - GraphQL Server
+* [Day #3 - GraphQL Server](./day-3)
