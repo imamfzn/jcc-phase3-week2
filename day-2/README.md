@@ -11,7 +11,7 @@ Sebelum mengerjakan task ini, coba pelajari dan jalankan docker-compose yang sud
 - Buatlah 2 api service berdasarkan requirement dibawah ini
 - Buat dengan **se-sederhana mungkin**, tujuan dari task ini adalah untuk membangun ekosistem microservice menggunakan `docker-compose` jadi aplikasi tidak perlu terlalu canggih dan `robust` yang penting setiap fungsional dari requirement nya berjalan. Misal, tidak perlu ada validasi suatu field, dll. Bahkan tidak perlu membuat unit test pada task ini
 - Direkomendasikan menggunakan `express.js` untuk mengerjakan task ini
-- Bisa menggunakan middleware caching berikut pada `express.js` agar kita tidak perlu lagi mengimplementasikan sendiri mekanisme caching dari sisi api https://github.com/kwhitley/apicache
+- Bisa menggunakan middleware caching berikut pada `express.js` agar kita tidak perlu lagi mengimplementasikan sendiri mekanisme caching dari sisi api https://github.com/kwhitley/apicache. Pastikan client nodejs yang dipakai adalah bukan yang terbaru (harus dibawah v4.0.0).
 - Buat dockerfile untuk masing-masing service
 - Buat 1 file docker-compose untuk membuat eksosistem service menjadi dalam 1 project
 - Jika ada informasi yang kurang / butuh ditanyakan silahkan buat issue di https://github.com/imamfzn/jcc-phase3-week2/issues
