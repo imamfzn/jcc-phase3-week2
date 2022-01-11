@@ -1,0 +1,40 @@
+version: "3"
+services:
+  cron:
+    build: cron
+    environment:
+    - MONGO_URL_PRODUCT=mongodb://mongo-product:27017
+    - MONGO_URL_REVIEW=mongodb://mongo-review:27017
+    
+  product:
+    build: product
+    environment:
+    - MONGO_URL=mongodb://mongo-product:27017
+    - REDIS_URL=redis://redis-product:6379
+    - REVIEW_HOST=http://review:5000
+    ports:
+    - 5001:5000
+  redis-product:
+    image: redis
+  mongo-product:
+    image: mongo:4.4
+    volumes:
+    - mongo-product-volume:/data/db
+
+  review:
+    build: review
+    environment:
+    - MONGO_URL=mongodb://mongo-review:27017
+    - REDIS_URL=redis://redis-review:6379
+    ports:
+    - 5002:5000
+  redis-review:
+    image: redis
+  mongo-review:
+    image: mongo:4.4
+    volumes:
+    - mongo-review-volume:/data/db
+
+volumes:
+  mongo-product-volume:
+  mongo-review-volume:

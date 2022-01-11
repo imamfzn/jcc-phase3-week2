@@ -1,0 +1,35 @@
+version: "3"
+services:
+  review:
+    build: .
+    environment:
+    - MONGO_URL=mongodb://mongo:27017
+    - REDIS_URL=redis://redis:6379
+    ports:
+    - 5002:5000
+    networks:
+    - internal
+    - jcc-external
+  redis:
+    image: redis
+    networks:
+    - internal
+  mongo:
+    image: mongo:4.4
+    volumes:
+    - mongo-volume:/data/db
+    networks:
+      internal:
+      jcc-db-external:
+        aliases:
+        - mongo-review
+
+volumes:
+  mongo-volume:
+
+networks:
+  internal:
+  jcc-external:
+    external: true
+  jcc-db-external:
+    external: true
