@@ -1,0 +1,22 @@
+{
+  "name": "review",
+  "version": "0.1.0",
+  "description": "product review oservice that handle product review",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imamfzn",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.6.0",
+    "body-parser": "^1.19.1",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-winston": "^4.2.0",
+    "mongoose": "^6.1.6",
+    "redis": "^3.0.0",
+    "winston": "^3.4.0"
+  }
+}

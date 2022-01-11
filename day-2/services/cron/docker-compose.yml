@@ -1,0 +1,13 @@
+version: "3"
+services:
+  cron:
+    build: .
+    environment:
+    - MONGO_URL_PRODUCT=mongodb://mongo-product:27017
+    - MONGO_URL_REVIEW=mongodb://mongo-review:27017
+    networks:
+    - jcc-db-external
+
+networks:
+  jcc-db-external:
+    external: true
