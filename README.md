@@ -11,4 +11,4 @@ Materi ini berisi:
 Slide Presentasi:
 
 * [Docker 101](https://docs.google.com/presentation/d/1xhHWaQluWXdwuZtYtqwcL_uk1mNz-BNfz5PJKqeN7_A/edit?usp=sharing)
-* [GraphQL 101] (https://docs.google.com/presentation/d/1G6PS48RFPAq9Tz_qOZp5jQWlcQX3Yv7rJVtvba8Gedc/edit?usp=sharing)
+* [GraphQL 101](https://docs.google.com/presentation/d/1G6PS48RFPAq9Tz_qOZp5jQWlcQX3Yv7rJVtvba8Gedc/edit?usp=sharing)
